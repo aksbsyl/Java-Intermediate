@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Registration form</title>
+</head>
+<body>
+<form action = "register" method="post">
+
+    Name: <input type = "text" name="userName"/><br/><br/>
+    Password: <input type = "password" name="userPass"/><br/><br/>
+    Email Id: <input type = "text" name="userEmail"/><br/><br/>
+    Country:
+    <Select name="userCountry">
+        <option>Nepal</option>
+        <option>Bangladesh</option>
+        <option>India</option>
+        <option>Pakistan</option>
+    </Select>
+    <br/><br/>
+    <br>
+    <label for = "date">
+        <span> Date of Birth </span>
+    </label>
+    <input type="date" id="date" name="expiration">
+    <br>
+    <br>
+    Gender
+    <ul>
+        <li>
+            <label for="title_2">
+                <input type="radio" id="title_2" name="title" value="Male">
+                Male
+            </label>
+        </li>
+        <li>
+            <label for="title_3">
+                <input type="radio" id="title_3" name="title" value="Female">
+                Female
+            </label>
+        </li>
+        <a href="login.html"> Login Page</a>
+        <a href="test.html"> test</a>
+    </ul>
+    <input type="submit" value="register"/>
+</form>
+</body>
+</html>
