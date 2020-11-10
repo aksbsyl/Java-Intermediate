@@ -1,2 +1,5 @@
 # Java-Intermediate
-Contains codes regarding servlet, JDBC, MailAPI and databases
+* 1)JDBC
+* 2)Servlet 
+* 3)MailAPI
+* 4)Databases(MySQL)
